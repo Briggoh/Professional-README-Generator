@@ -18,7 +18,7 @@ As a part of my requirements for the UC Berkeley Full Stack Web Development Boot
 8. “What is your GitHub username? (For communication purposes)”
 9. “What is your email? (For communication purposes)”
 
-After answering these questions, the software will produce a well-organized README file based on the content that the user provided. 
+After answering these questions, the software will produce a well-organized README file based on the content that the user provided. Its really that easy!
 ## Preview
 
 UPDATE LATER
@@ -29,7 +29,7 @@ In order to install this software, the user must use the "git clone" function in
 
 ## Usage:
 
-In order to use this software, the user must visit their cloned files, then type "node index" in the command-line
+In order to use this software, the user must visit their cloned files, then type "node index" in the command-line. Remember to verify your location within the file!
 
 ## Testing:
 
