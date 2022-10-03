@@ -5,7 +5,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // Here are the various questions we are prompting 
 const questions = [
-    {
+    {   // project title
         type: 'input',
         name: 'title',
         message: 'What is the title of your project?',
@@ -18,7 +18,7 @@ const questions = [
             }
         }
     },
-    {
+    { // licenses
         type: 'list',
         name: 'license',
         message: 'What license does your project use?',
@@ -32,7 +32,7 @@ const questions = [
                 }
         }
     },
-    {
+    {   // project description
         type: 'input',
         name: 'description',
         message: 'Please provide a brief description of your project',
@@ -45,7 +45,7 @@ const questions = [
             }
         }
     },
-    {
+    {   // project installation
         type: 'input',
         name: 'installation',
         message: 'What are the steps required to install your project?',
@@ -58,10 +58,10 @@ const questions = [
             }
         }
     },
-    {
+    {   // project usage
         type: 'input',
         name: 'usage',
-        message: 'What is the intended use of your project?',
+        message: 'What are the usage instructions for your project?',
         validate: usageInput => {
             if (usageInput) {
                 return true;
@@ -71,7 +71,7 @@ const questions = [
             }
         }
     },
-    {
+    {   // project contributions
         type: 'input',
         name: 'contributions',
         message: 'What guidelines must others follow in order to contribute?',
@@ -84,7 +84,7 @@ const questions = [
             }
         }
     },
-    {
+    {   // project testing
         type: 'input',
         name: 'tests',
         message: 'How do you test this project?',
@@ -97,7 +97,7 @@ const questions = [
             }
         }
     },
-    {
+    {   // GitHub username
         type: 'input',
         name: 'askMe',
         message: 'What is your Github username? (For communication purposes)',
@@ -110,7 +110,7 @@ const questions = [
             }
         }
     },
-    {
+    {   // Email
         type: 'input',
         name: 'email',
         message: 'What is your email? (For communication purposes)',
