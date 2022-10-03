@@ -35,7 +35,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a project description',
+        message: 'Please provide a brief description of your project',
         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
@@ -48,7 +48,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'What steps are needed to install your project?',
+        message: 'What are the steps required to install your project?',
         validate: installationInput => {
             if (installationInput) {
                 return true;
@@ -61,7 +61,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'What is the use of your project?',
+        message: 'What is the intended use of your project?',
         validate: usageInput => {
             if (usageInput) {
                 return true;
@@ -100,7 +100,7 @@ const questions = [
     {
         type: 'input',
         name: 'askMe',
-        message: 'What is your Github username so others can reach you for questions?',
+        message: 'What is your Github username? (For communication purposes)',
         validate: askMeInput => {
             if (askMeInput) {
                 return true;
@@ -113,7 +113,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email so there is another way to be reached for questions?',
+        message: 'What is your email? (For communication purposes)',
         validate: emailInput => {
             if (emailInput) {
                 return true;
