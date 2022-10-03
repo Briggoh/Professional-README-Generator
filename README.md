@@ -29,13 +29,16 @@ In order to install this software, the user must use the "git clone" function in
 
 ## Usage:
 
-In order to use this software, the user must visit their cloned files, then type "node index" in the command-line. Remember to verify your location within the file!
+In order to use this software, the user must run the "node index" command in their terminal. They will then be prompted to answer a number of questions. Upon completion of these questions, the file will be completed with the users answers! The generated README should then be visible as 'generatedREADME' with the rest of your files on the left-hand side of the page.
 
+## Contributions 
+
+Although a 3rd party's interest in helping me is always appreciated, I will not be accepting any contributions for this project. 
 ## Testing:
 
-Feel free to test this product using your own data!
+In order to test this app, first open the file in VS Code. Then, open the terminal and  change directory into the root folder ‘challenge-9-professional-README-generator’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
 
 
-## Contact Me:
+## Questions:
 
 You are encouraged to contact me with any questions/comments/concerns at H.E.Briggs99@gmail.com. Feedback is always greatly appreciated!
