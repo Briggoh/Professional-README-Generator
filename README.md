@@ -25,6 +25,8 @@ Attached below is a video containing a demonstration of the software.
 
 https://loom.com/share/d30661ccb95c4a1ea8725558d97f91c2
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/109489824/193704695-31d92f2f-0301-434d-91fd-c50a42c02198.gif)
+
 
 ## Installation:
 
