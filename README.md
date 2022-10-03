@@ -19,9 +19,12 @@ As a part of my requirements for the UC Berkeley Full Stack Web Development Boot
 9. “What is your email? (For communication purposes)”
 
 After answering these questions, the software will produce a well-organized README file based on the content that the user provided. Its really that easy!
-## Preview
+## Preview:
 
-UPDATE LATER
+Attached below is a video containing a demonstration of the software. 
+
+https://loom.com/share/d30661ccb95c4a1ea8725558d97f91c2
+
 
 ## Installation:
 
@@ -31,12 +34,12 @@ In order to install this software, the user must use the "git clone" function in
 
 In order to use this software, the user must run the "node index" command in their terminal. They will then be prompted to answer a number of questions. Upon completion of these questions, the file will be completed with the users answers! The generated README should then be visible as 'generatedREADME' with the rest of your files on the left-hand side of the page.
 
-## Contributions 
+## Contributions:
 
 Although a 3rd party's interest in helping me is always appreciated, I will not be accepting any contributions for this project. 
 ## Testing:
 
-In order to test this app, first open the file in VS Code. Then, open the terminal and  change directory into the root folder ‘challenge-9-professional-README-generator’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
+In order to test this app, first open the file in VS Code. Then, open the terminal and  change directory into the root folder ‘challenge-9-professional-README-generator’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ with the rest of your files on the left-hand side of the page.
 
 
 ## Questions:
