@@ -12,7 +12,7 @@ As a part of my requirements for the UC Berkeley Full Stack Web Development Boot
 2. “What license does your project use?”
 3. “Please provide a brief description of your project”
 4. “What are the steps required to install your project?”
-5. “What is the intended use of your project?”
+5. "What are the usage instructions for your project?"
 6. “What guidelines must others follow in order to contribute?”
 7. “How do you test this project?”
 8. “What is your GitHub username? (For communication purposes)”
